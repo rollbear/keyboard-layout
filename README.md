@@ -1,6 +1,9 @@
 # keyboard-layout
 X11-xkb description of keyboard layout optimized for mixed Swedish/English/C++
 
+On a traditional keyboard, it works best with caps-lock as 3rd level selector (I use L-shift + R-shift as caps-lock,
+for the rare situations when caps lock is desired.)
+
 Plain:
 
 |   |   |   |   |       |   |   |   |       |   |   |   |   |   |   |
