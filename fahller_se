@@ -25,7 +25,7 @@ xkb_symbols "fahller" {
     key <AD04>  { [           b,              B,        ssharp                 ] };
     key <AD05>  { [  adiaeresis,     Adiaeresis,            ae,             AE ] };
     key <AD06>  { [           k,              K                                ] };
-    key <AD07>  { [           m,              M,              4,     onquarter ] };
+    key <AD07>  { [           m,              M,              4,    onequarter ] };
     key <AD08>  { [           s,              S,              5,        ssharp ] };
     key <AD09>  { [           h,              H,              6, threequarters ] };
     key <AD10>  { [           f,              F                                ] };
