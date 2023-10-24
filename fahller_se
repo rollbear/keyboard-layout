@@ -4,8 +4,6 @@
 
 default alphanumeric_keys
 xkb_symbols "fahller" {
-    include "se(basic)"
-    // include "pc/latin(type2)"
     name[Group1]="Swedish (Fahller)";
 
     key <AE01>  { [  apostrophe,             at                                ] };
@@ -34,7 +32,6 @@ xkb_symbols "fahller" {
     key <AD11>  { [      dollar,     underscore,      sterling,       currency ] };
     key <AD12>  { [      exclam,          acute,    exclamdown,     dead_acute ] };
 
-    key <CAPS>  { symbols[Group1]= [ Multi_key ], virtualMods= AltGr };
     key <AC01>  { [           o,              O,        degree                 ] };
     key <AC02>  { [           i,              I                                ] };
     key <AC03>  { [           e,              E,      EuroSign,           cent ] };
@@ -60,5 +57,4 @@ xkb_symbols "fahller" {
     key <AB08>  { [           c,              C,     copyright                 ] };
     key <AB09>  { [           p,              P,         thorn,          THORN ] };
     key <AB10>  { [           q,              Q                                ] };
-    include "level3(ralt_switch_multikey)"
 };
